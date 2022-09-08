@@ -1,0 +1,55 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, verdana, sans-serif;
+    background: url(../css/nobonez.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.log-in{
+    width: 280px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+
+.log-in h1{
+    font-size: 40px;
+    float: left;
+    border-bottom: 4px rgb(10, 187, 48) solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px rgb(10, 187, 48) solid;
+}
+
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 80px;
+    float: left;
+    margin: 10px;
+}
+
+.textbox i{
+    float:left;
+    width:26px;
+    text-align:center;
+}
+

@@ -1,0 +1,72 @@
+body{
+	font: 200 15px tahoma;
+	line-height:1.6em;
+	margin:0;
+	background-color:white;
+	color:blue;
+}
+
+a.hover{
+	color:green;
+}
+.container{
+	width:80%;
+	margin:auto; 
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:blue;
+	color:white;
+
+}
+
+.navbar{
+	background-color:yellow;
+	color:white;
+
+}
+
+.navbar ul{
+	list-style:none;
+	padding:0;
+}
+.navbar a{
+	text-decoration:none;
+	font-size:16px;
+	padding-right:20px;
+	color:black;
+}
+
+.navbar li{
+	display:inline;
+	padding:25px;
+}
+
+#box-1{
+	font: 17px times new roman;
+	background-image:url(../CSS/jungle.jpg);
+	background-position: center right;
+	float:left;
+	width:70%;
+	padding: 0px 30px;
+	box-sizing:border-box;
+}
+
+.sidebar{
+	float:right;
+	width:30%;
+	background-color:black;
+	color:yellow;
+	padding: 0px 30px;
+box-sizing:border-box;
+}
+
+
+#main-footer{
+	background-color:yellow;
+	color:black;
+	text-align:center;
+	margin-top:370px;
+	padding:20px;
+}
